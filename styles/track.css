@@ -34,3 +34,111 @@
 .track-field{
     margin-bottom: 10px;
 }
+.track-result {
+    margin-top: 5px;
+    display: none;
+}
+
+.track-result.is-visible {
+    display: block;
+}
+
+.track-result-header {
+    font-weight: bold;
+    font-size: 14px;
+    color: #111111;
+    padding: 20px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.track-id {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.track-routes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: normal;
+}
+
+.track-route {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.track-route-pin {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.track-route-arrow {
+    padding: 15px 0;
+    width: 24px;
+    height: 24px;
+}
+
+.track-info {
+    padding: 20px;
+}
+
+.track-status {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 10px;
+}
+
+.track-status-title {
+    font-size: 14px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.track-status-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.track-status-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(17, 17, 17, 0.08);
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+}
+
+.track-status.created .track-status-icon {
+    background-color: #F1CB00;
+}
+
+.track-status.in-way .track-status-icon {
+    background-color: #F08A11;
+}
+
+.track-status.ready .track-status-icon {
+    background-color: #A35D0A;
+}
+
+.track-status.done .track-status-icon {
+    background-color: #37C93B;
+}
+
+.track-status-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #111111;
+    font-size: 12px;
+    flex: 1;
+}
+
+.track-status-date {
+    color: rgba(17, 17, 17, 0.55);
+}
