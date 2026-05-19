@@ -1,6 +1,5 @@
 #map {
-    background-image: url("../images/2.png");
-    background-size: cover;
+  
     position: fixed;
     inset: 0;
 }
